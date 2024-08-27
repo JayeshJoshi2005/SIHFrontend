@@ -40,7 +40,6 @@ const SpeechToText = ({ onSpeechToText, onClearText }) => {
       >
         <FaMicrophone className={`${isRecording ? "text-white" : "text-gray-800"}`} size={24} />
       </button>
-      
     </div>
   );
 };
